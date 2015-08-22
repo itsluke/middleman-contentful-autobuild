@@ -1,6 +1,6 @@
 # Middleman Contentful Autobuild
 
-A simple solution combining the simplicity of [Middleman](//middlemanapp.com/) with updateable content through [Contentful](//contentful.com) hosted on (Heroku)[//heroku.com]
+A simple solution combining the simplicity of [Middleman](//middlemanapp.com/) with updateable content through [Contentful](//contentful.com) hosted on [Heroku](//heroku.com)
 
 ## Getting started
 
@@ -23,16 +23,22 @@ HEROKU_APP="<app name>"
 This can be done in an `.env` file for your local dev environment.
 
 #### For Dev
-`bundle install`
-`middleman contentful`
-`middleman`
+
+```
+bundle install
+middleman contentful
+middleman
+```
 
 #### To Build
-`bundle install`
-`rackup`
+
+```
+bundle install
+rackup
+```
 
 More information on setup can be found here
 
-(middleman docs)[//middlemanapp.com/basics/install/]
-(contentful docs)[//www.contentful.com/developers/docs/]
-(contentful_middleman gem)[//github.com/contentful-labs/contentful_middleman]
+- [middleman docs](//middlemanapp.com/basics/install/)
+- [contentful docs](//www.contentful.com/developers/docs/)
+- [contentful_middleman gem](//github.com/contentful-labs/contentful_middleman)
