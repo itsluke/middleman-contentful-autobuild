@@ -1,8 +1,10 @@
 ---
-title: Middleman Contentful Autobuild
+title: Build static websites with a Contentful CMS
 ---
 
+h2 Build static websites with a Contentful CMS
 .welcome
-  h1 = current_page.data.title
-  p.doc
-    == link_to "Read Online Documentation", "http://middlemanapp.com/"
+- data.site.mock_content.each do |key, mock|
+  h3 = mock.title
+  h6 = mock.id
+  p = mock.content

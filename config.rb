@@ -8,8 +8,7 @@ activate :contentful do |f|
   f.access_token  = ENV['CONTENTFUL_ACCESS_TOKEN']
   f.space         = { site: ENV['CONTENTFUL_SPACE'] }
   f.content_types = { 
-    cocktails: ENV['CONTENTFUL_COCKTAILS_ID'],
-    cocktail: ENV['CONTENTFUL_COCKTAIL_ID']
+    mock_content: ENV['CONTENTFUL_MOCK_ID']
   }
 end
 

@@ -7,6 +7,7 @@
 # Ignore bundler config
 /.bundle
 /.env
+/data
 
 # Ignore the build directory
 /build
